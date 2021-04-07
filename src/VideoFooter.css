@@ -1,0 +1,73 @@
+.videoFooter {
+    position: relative;
+    margin-left: 20px;
+    bottom:100px;
+}
+.videoFooter_text{
+    position: absolute;
+    bottom:0;
+    color:black;
+    display:flex;
+    margin-bottom: 20px;
+    padding-left: 10px;
+}
+
+.videoFooter_text>h3{
+    margin-left:10px;
+    padding-bottom: 20px;
+
+}
+
+.videoFooter_text >h3 >button {
+    color:black;
+    font-weight:900;
+    text-transform:inherit;
+}
+
+.videoFooter_ticker > .ticker {
+    width:60%;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    height:fit-content;
+
+}
+
+.videoFooter_ticker h1 {
+    padding-top: 7px;
+    font-size: 15px;
+    color:black;
+    width:60%;
+}
+
+.videoFooter_icon {
+    position: absolute;
+    padding-top: 5px;
+    left:20px;
+    color:black;
+}
+
+.videoFooter_actions{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    color:black;
+    justify-content: space-between;
+
+}
+.videoFooter_stat{
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+.videoFooter_stat >p{
+    margin-left: 3px;
+}
+.videoFooter_actionsLeft> .MuiSvgIcon-root{
+    padding : 0 10px;
+}
+
+.videoFooter_actionsRight{
+    display:flex;
+    padding-bottom: 10px;
+}
