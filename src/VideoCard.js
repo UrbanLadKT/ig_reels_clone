@@ -23,7 +23,7 @@ function VideoCard({url,likes,shares,channel,avatarSrc,song}) {
         <div className='videoCard'>
             <VideoHeader/>
             <video  ref={videoRef} onClick={onVideoPress} className="videoCard_player"
-                src="url"
+                src={url}
                 alt='IG Reels'
 
              />
