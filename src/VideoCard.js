@@ -5,7 +5,7 @@ import VideoFooter from './VideoFooter';
 
 function VideoCard({url,likes,shares,channel,avatarSrc,song}) {
 
-    const[isVideoPlaying,setIsVideoPlaying]=useState(false);
+    const[isVideoPlaying,setIsVideoPlaying]=useState(true);
     const videoRef=useRef(null);
     const onVideoPress=()=>{
         if(isVideoPlaying){
